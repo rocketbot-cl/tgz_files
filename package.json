@@ -1,0 +1,168 @@
+{
+
+  "author": "Nicolás Liendro",
+  "description": "Modulo para trabajar archivos .tgz",
+  "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
+  "version": "0.1",
+  "license": "MIT",
+  "homepage": "http://rocketbot.co",
+  "linux": true,
+  "windows": true,
+  "mac": true,
+  "docker": true,
+  "name": "tgz_files",
+  "dependencies": {},
+  "title": {
+    "en": "TGZ",
+    "es": "TGZ",
+    "cn": "TGZ"
+  },
+  "icon": "data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBkPSJNNTUsMjdINTRWMTVzMCwwLDAtLjA2YTEsMSwwLDAsMC0uMDUtLjI3bDAtLjA5YTEsMSwwLDAsMC0uMTktLjI4aDBsLTEyLTEyaDBhMSwxLDAsMCwwLS4yOC0uMTlsLS4wOSwwQTEsMSwwLDAsMCw0MS4wNiwySDExYTEsMSwwLDAsMC0xLDFWMjdIOWExLDEsMCwwLDAtMSwxVjQ4YTEsMSwwLDAsMCwxLDFoMVY2MWExLDEsMCwwLDAsMSwxSDUzYTEsMSwwLDAsMCwxLTFWNDloMWExLDEsMCwwLDAsMS0xVjI4QTEsMSwwLDAsMCw1NSwyN1pNNDIsNS40MSw1MC41OSwxNEg0MlpNMTIsNEg0MFYxNWExLDEsMCwwLDAsMSwxSDUyVjI3SDEyWk01Miw2MEgxMlY0OUg1MlptMi0xM0gxMFYyOUg1NFoiLz48cG9seWdvbiBwb2ludHM9IjE5LjgzIDMxLjMyIDEzLjU0IDMxLjMyIDEzLjU0IDMzLjM0IDE1LjY4IDMzLjM0IDE1LjY4IDQ0LjY2IDE3LjcgNDQuNjYgMTcuNyAzMy4zNCAxOS44MyAzMy4zNCAxOS44MyAzMS4zMiIvPjxwYXRoIGQ9Ik0yMS44OCAzMS4zMUwxOS42MSA0NC42NmgyLjFsLjQ5LTMuMDdoMi4xbC40NyAzLjA3aDIuMTJMMjQuNjUgMzEuMzF6bS42MyA4LjMybC43NS01LjI2TDI0IDM5LjY0ek0zNC45MiAzNi40NFYzNC41YTMuMzcgMy4zNyAwIDAgMC0uNjktMi4yNiAzLjA3IDMuMDcgMCAwIDAtMi40Ny0uOTNIMjguNThWNDQuNjZoMnYtNWgxLjM0bDEuMjIgNWgyLjE4bC0xLjQ5LTUuODNBMy4xMiAzLjEyIDAgMCAwIDM0LjkyIDM2LjQ0em0tMiAwYTEuMTMgMS4xMyAwIDAgMS0uMzMuODIgMS4xIDEuMSAwIDAgMS0uODIuMzRIMzAuNlYzMy4zN2gxLjIxQTEgMSAwIDAgMSAzMyAzNC41M3pNMzkuOTIgMzEuMTdhMy4xOSAzLjE5IDAgMCAwLTMuMiAzLjJ2Ny4yOWEzLjE5IDMuMTkgMCAwIDAgNi4zOCAwVjM3SDM5Ljl2Mkg0MXYyLjYyYTEuMSAxLjEgMCAwIDEtLjM0LjgxIDEuMTMgMS4xMyAwIDAgMS0uODIuMzMgMS4xNSAxLjE1IDAgMCAxLTEuMTUtMS4xNVYzNC4zMkExLjEzIDEuMTMgMCAwIDEgMzkgMzMuNWExLjEgMS4xIDAgMCAxIC44Mi0uMzRBMS4xNiAxLjE2IDAgMCAxIDQxIDM0LjMydjEuNTdINDMuMVYzNC4zNmEzLjEgMy4xIDAgMCAwLS45My0yLjI2QTMuMDYgMy4wNiAwIDAgMCAzOS45MiAzMS4xN3oiLz48cG9seWdvbiBwb2ludHM9IjQ0LjQ5IDMzLjM0IDQ4LjIxIDMzLjMzIDQ0LjQ5IDQyLjY1IDQ0LjQ5IDQ0LjY2IDUwLjM3IDQ0LjY2IDUwLjM3IDQyLjY2IDQ2LjY2IDQyLjY2IDUwLjM3IDMzLjM0IDUwLjM3IDMxLjMyIDQ0LjQ5IDMxLjMyIDQ0LjQ5IDMzLjM0Ii8+PC9zdmc+",
+  "children": [
+    {
+      "en": {
+        "title": "Compress TGZ",
+        "description": "Compress TGZ",
+        "title_options": null,
+        "options": null
+      },
+      "es": {
+        "title": "Comprimir TGZ",
+        "description": "Comprime un archivo o directorio en formato .TGZ",
+        "title_options": null,
+        "options": null
+      },
+      "form": {
+        "css": "modal-lg",
+        "inputs": [
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "C:\\Users\\Robot\\Desktop o C:\\Users\\Robot\\Desktop\\archivo.docx",
+              "en": "C:\\Users\\Robot\\Desktop or C:\\Users\\Robot\\Desktop\\file.docx"
+            },
+            "title": {
+              "es": "Archivo a comprimir",
+              "en": "File to compress"
+            },
+            "id": "path_file",
+            "css": "col-md-12"
+          },
+          {
+            "type": "folder_select",
+            "placeholder": {
+              "es": "C:\\Users\\Robot\\Desktop o C:\\Users\\Robot\\Desktop\\folder",
+              "en": "C:\\Users\\Robot\\Desktop or C:\\Users\\Robot\\Desktop\\folder"
+            },
+            "title": {
+              "es": "Carpeta a comprimir",
+              "en": "Directory to compress"
+            },
+            "help": {
+              "es": "Solo si el campo anterior está en blanco",
+              "en": "Only if file select input is empty "
+            },
+            "id": "path_folder",
+            "css": "col-md-12"
+          },
+          {
+            "type": "file_new",
+            "placeholder": {
+              "es": "C:\\Users\\Robot\\Desktop\\archivo.tgz",
+              "en": "C:\\Users\\Robot\\Desktop\\file.tgz"
+            },
+            "title": {
+              "es": "Destino del archivo .tgz",
+              "en": "Destination path of the .tgz file"
+            },
+            "id": "output_path",
+            "css": "col-md-12"
+          },
+          {
+            "type": "checkbox",
+            "title": {
+              "es": "Comprimir solamente archivos",
+              "en": "Compress only files"
+            },
+            "help": {
+              "es": "Solamente comprime los archivos contenidos sin la carpeta",
+              "en": "Compress only files on folder"
+            },
+            "id": "add_folder",
+            "css": "col-md-6"
+          }
+        ]
+      },
+      "video_youtube": "",
+      "icon": "data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBkPSJNNTUsMjdINTRWMTVzMCwwLDAtLjA2YTEsMSwwLDAsMC0uMDUtLjI3bDAtLjA5YTEsMSwwLDAsMC0uMTktLjI4aDBsLTEyLTEyaDBhMSwxLDAsMCwwLS4yOC0uMTlsLS4wOSwwQTEsMSwwLDAsMCw0MS4wNiwySDExYTEsMSwwLDAsMC0xLDFWMjdIOWExLDEsMCwwLDAtMSwxVjQ4YTEsMSwwLDAsMCwxLDFoMVY2MWExLDEsMCwwLDAsMSwxSDUzYTEsMSwwLDAsMCwxLTFWNDloMWExLDEsMCwwLDAsMS0xVjI4QTEsMSwwLDAsMCw1NSwyN1pNNDIsNS40MSw1MC41OSwxNEg0MlpNMTIsNEg0MFYxNWExLDEsMCwwLDAsMSwxSDUyVjI3SDEyWk01Miw2MEgxMlY0OUg1MlptMi0xM0gxMFYyOUg1NFoiLz48cG9seWdvbiBwb2ludHM9IjE5LjgzIDMxLjMyIDEzLjU0IDMxLjMyIDEzLjU0IDMzLjM0IDE1LjY4IDMzLjM0IDE1LjY4IDQ0LjY2IDE3LjcgNDQuNjYgMTcuNyAzMy4zNCAxOS44MyAzMy4zNCAxOS44MyAzMS4zMiIvPjxwYXRoIGQ9Ik0yMS44OCAzMS4zMUwxOS42MSA0NC42NmgyLjFsLjQ5LTMuMDdoMi4xbC40NyAzLjA3aDIuMTJMMjQuNjUgMzEuMzF6bS42MyA4LjMybC43NS01LjI2TDI0IDM5LjY0ek0zNC45MiAzNi40NFYzNC41YTMuMzcgMy4zNyAwIDAgMC0uNjktMi4yNiAzLjA3IDMuMDcgMCAwIDAtMi40Ny0uOTNIMjguNThWNDQuNjZoMnYtNWgxLjM0bDEuMjIgNWgyLjE4bC0xLjQ5LTUuODNBMy4xMiAzLjEyIDAgMCAwIDM0LjkyIDM2LjQ0em0tMiAwYTEuMTMgMS4xMyAwIDAgMS0uMzMuODIgMS4xIDEuMSAwIDAgMS0uODIuMzRIMzAuNlYzMy4zN2gxLjIxQTEgMSAwIDAgMSAzMyAzNC41M3pNMzkuOTIgMzEuMTdhMy4xOSAzLjE5IDAgMCAwLTMuMiAzLjJ2Ny4yOWEzLjE5IDMuMTkgMCAwIDAgNi4zOCAwVjM3SDM5Ljl2Mkg0MXYyLjYyYTEuMSAxLjEgMCAwIDEtLjM0LjgxIDEuMTMgMS4xMyAwIDAgMS0uODIuMzMgMS4xNSAxLjE1IDAgMCAxLTEuMTUtMS4xNVYzNC4zMkExLjEzIDEuMTMgMCAwIDEgMzkgMzMuNWExLjEgMS4xIDAgMCAxIC44Mi0uMzRBMS4xNiAxLjE2IDAgMCAxIDQxIDM0LjMydjEuNTdINDMuMVYzNC4zNmEzLjEgMy4xIDAgMCAwLS45My0yLjI2QTMuMDYgMy4wNiAwIDAgMCAzOS45MiAzMS4xN3oiLz48cG9seWdvbiBwb2ludHM9IjQ0LjQ5IDMzLjM0IDQ4LjIxIDMzLjMzIDQ0LjQ5IDQyLjY1IDQ0LjQ5IDQ0LjY2IDUwLjM3IDQ0LjY2IDUwLjM3IDQyLjY2IDQ2LjY2IDQyLjY2IDUwLjM3IDMzLjM0IDUwLjM3IDMxLjMyIDQ0LjQ5IDMxLjMyIDQ0LjQ5IDMzLjM0Ii8+PC9zdmc+",
+      "module": "compress",
+      "module_name": "tgz_files",
+      "visible": true,
+      "options": false,
+      "father": "module",
+      "group": "scripts",
+      "linux": true,
+      "windows": true,
+      "mac": true,
+      "docker": true
+    },
+    {
+      "en": {
+        "title": "Unzip TGZ",
+        "description": "Unzip TGZ",
+        "title_options": null,
+        "options": null
+      },
+      "es": {
+        "title": "Descomprimir TGZ",
+        "description": "Descomprime un archivo .tgz",
+        "title_options": null,
+        "options": null
+      },
+      "form": {
+        "css": "modal-lg",
+        "inputs": [
+          {
+            "type": "file_select",
+            "placeholder": {
+              "es": "C:\\Users\\Robot\\Desktop\\archivo.tgz",
+              "en": "C:\\Users\\Robot\\Desktop\\file.tgz"
+            },
+            "title": {
+              "es": "Archivo a descomprimir",
+              "en": "File to unzip"
+            },
+            "id": "tar_url",
+            "css": "col-md-12"
+          },
+          {
+            "type": "folder_select",
+            "placeholder": {
+              "es": "C:\\Users\\Robot\\Desktop",
+              "en": "C:\\Users\\Robot\\Desktop"
+            },
+            "title": {
+              "es": "Carpeta de destino",
+              "en": "Directory path"
+            },
+
+            "id": "extract_path",
+            "css": "col-md-12"
+          }
+        ]
+      },
+      "video_youtube": "",
+      "icon": "data:image/svg+xml;utf8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGRhdGEtbmFtZT0iTGF5ZXIgMSIgdmlld0JveD0iMCAwIDY0IDY0Ij48cGF0aCBkPSJNNTUsMjdINTRWMTVzMCwwLDAtLjA2YTEsMSwwLDAsMC0uMDUtLjI3bDAtLjA5YTEsMSwwLDAsMC0uMTktLjI4aDBsLTEyLTEyaDBhMSwxLDAsMCwwLS4yOC0uMTlsLS4wOSwwQTEsMSwwLDAsMCw0MS4wNiwySDExYTEsMSwwLDAsMC0xLDFWMjdIOWExLDEsMCwwLDAtMSwxVjQ4YTEsMSwwLDAsMCwxLDFoMVY2MWExLDEsMCwwLDAsMSwxSDUzYTEsMSwwLDAsMCwxLTFWNDloMWExLDEsMCwwLDAsMS0xVjI4QTEsMSwwLDAsMCw1NSwyN1pNNDIsNS40MSw1MC41OSwxNEg0MlpNMTIsNEg0MFYxNWExLDEsMCwwLDAsMSwxSDUyVjI3SDEyWk01Miw2MEgxMlY0OUg1MlptMi0xM0gxMFYyOUg1NFoiLz48cG9seWdvbiBwb2ludHM9IjE5LjgzIDMxLjMyIDEzLjU0IDMxLjMyIDEzLjU0IDMzLjM0IDE1LjY4IDMzLjM0IDE1LjY4IDQ0LjY2IDE3LjcgNDQuNjYgMTcuNyAzMy4zNCAxOS44MyAzMy4zNCAxOS44MyAzMS4zMiIvPjxwYXRoIGQ9Ik0yMS44OCAzMS4zMUwxOS42MSA0NC42NmgyLjFsLjQ5LTMuMDdoMi4xbC40NyAzLjA3aDIuMTJMMjQuNjUgMzEuMzF6bS42MyA4LjMybC43NS01LjI2TDI0IDM5LjY0ek0zNC45MiAzNi40NFYzNC41YTMuMzcgMy4zNyAwIDAgMC0uNjktMi4yNiAzLjA3IDMuMDcgMCAwIDAtMi40Ny0uOTNIMjguNThWNDQuNjZoMnYtNWgxLjM0bDEuMjIgNWgyLjE4bC0xLjQ5LTUuODNBMy4xMiAzLjEyIDAgMCAwIDM0LjkyIDM2LjQ0em0tMiAwYTEuMTMgMS4xMyAwIDAgMS0uMzMuODIgMS4xIDEuMSAwIDAgMS0uODIuMzRIMzAuNlYzMy4zN2gxLjIxQTEgMSAwIDAgMSAzMyAzNC41M3pNMzkuOTIgMzEuMTdhMy4xOSAzLjE5IDAgMCAwLTMuMiAzLjJ2Ny4yOWEzLjE5IDMuMTkgMCAwIDAgNi4zOCAwVjM3SDM5Ljl2Mkg0MXYyLjYyYTEuMSAxLjEgMCAwIDEtLjM0LjgxIDEuMTMgMS4xMyAwIDAgMS0uODIuMzMgMS4xNSAxLjE1IDAgMCAxLTEuMTUtMS4xNVYzNC4zMkExLjEzIDEuMTMgMCAwIDEgMzkgMzMuNWExLjEgMS4xIDAgMCAxIC44Mi0uMzRBMS4xNiAxLjE2IDAgMCAxIDQxIDM0LjMydjEuNTdINDMuMVYzNC4zNmEzLjEgMy4xIDAgMCAwLS45My0yLjI2QTMuMDYgMy4wNiAwIDAgMCAzOS45MiAzMS4xN3oiLz48cG9seWdvbiBwb2ludHM9IjQ0LjQ5IDMzLjM0IDQ4LjIxIDMzLjMzIDQ0LjQ5IDQyLjY1IDQ0LjQ5IDQ0LjY2IDUwLjM3IDQ0LjY2IDUwLjM3IDQyLjY2IDQ2LjY2IDQyLjY2IDUwLjM3IDMzLjM0IDUwLjM3IDMxLjMyIDQ0LjQ5IDMxLjMyIDQ0LjQ5IDMzLjM0Ii8+PC9zdmc+",
+      "module": "unzip",
+      "module_name": "tgz_files",
+      "visible": true,
+      "options": false,
+      "father": "module",
+      "group": "scripts",
+      "linux": true,
+      "windows": true,
+      "mac": true,
+      "docker": true
+    }
+  ]
+}
