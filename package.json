@@ -3,7 +3,7 @@
   "author": "Nicolás Liendro",
   "description": "Modulo para trabajar archivos .tgz",
   "disclaimer": "THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM “AS IS” WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.",
-  "version": "0.1",
+  "version": "1.0.1",
   "license": "MIT",
   "homepage": "http://rocketbot.co",
   "linux": true,
@@ -45,6 +45,10 @@
               "es": "Archivo a comprimir",
               "en": "File to compress"
             },
+            "description": {
+              "es": "Ruta al archivo a comprimir",
+              "en": "Path to file to compress"
+            },
             "id": "path_file",
             "css": "col-md-12"
           },
@@ -62,6 +66,10 @@
               "es": "Solo si el campo anterior está en blanco",
               "en": "Only if file select input is empty "
             },
+            "description": {
+              "es": "Ruta a la carpeta a comprimir",
+              "en": "Path to directory to compress"
+            },
             "id": "path_folder",
             "css": "col-md-12"
           },
@@ -75,11 +83,19 @@
               "es": "Destino del archivo .tgz",
               "en": "Destination path of the .tgz file"
             },
+            "description": {
+              "es": "Ruta donde se guardará el archivo comprimido",
+              "en": "Path where the compressed file will be saved"
+            },
             "id": "output_path",
             "css": "col-md-12"
           },
           {
             "type": "checkbox",
+            "placeholder": {
+              "es": "True",
+              "en": "True"
+            },
             "title": {
               "es": "Comprimir solamente archivos",
               "en": "Compress only files"
@@ -87,6 +103,10 @@
             "help": {
               "es": "Solamente comprime los archivos contenidos sin la carpeta",
               "en": "Compress only files on folder"
+            },
+            "description": {
+              "es": "Si se selecciona, comprime solamente los archivos contenidos en la carpeta",
+              "en": "If selected, compress only files on folder"
             },
             "id": "add_folder",
             "css": "col-md-6"
@@ -132,6 +152,10 @@
               "es": "Archivo a descomprimir",
               "en": "File to unzip"
             },
+            "description": {
+              "es": "Archivo .tgz a descomprimir",
+              "en": "File .tgz to unzip"
+            },
             "id": "tar_url",
             "css": "col-md-12"
           },
@@ -145,7 +169,10 @@
               "es": "Carpeta de destino",
               "en": "Directory path"
             },
-
+            "description": {
+              "es": "Carpeta donde se descomprimirá el archivo",
+              "en": "Directory where the file will be unzipped"
+            },
             "id": "extract_path",
             "css": "col-md-12"
           }
